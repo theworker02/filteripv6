@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/filteripv6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Filter HTML/Markdown ipv6 fragments safely for docs pipelines.",
+  "bin": {
+    "filteripv6": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/filteripv6.git"
+  },
+  "homepage": "https://theworker02.github.io/filteripv6/",
+  "keywords": [
+    "filter",
+    "ipv6",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
